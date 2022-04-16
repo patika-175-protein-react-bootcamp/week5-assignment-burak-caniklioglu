@@ -134,10 +134,13 @@ input[type="password"] {
 
 .checkbox-area {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   margin: 24px 0;
 }
-
+.checkbox-area> div{
+  display: flex;
+  align-items: center;
+}
 input[type="checkbox"] {
   width: 24px;
   height: 24px;

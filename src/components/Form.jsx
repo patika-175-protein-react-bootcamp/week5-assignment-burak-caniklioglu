@@ -128,9 +128,12 @@ function FormSide({ isNight, change }) {
             </div>
 
             <div className="checkbox-area" >
-              <input type="checkbox" name="checkbox" id="checkbox" value={values.checkbox} onChange={handleChange}   />
-              <label className="contract" htmlFor="checkbox">Sözleşmeyi kabul ediyorum</label>
-              <span>{errors.checkbox}</span>
+              <div><input type="checkbox" name="checkbox" id="checkbox" value={values.checkbox} onChange={handleChange}   />
+              <label className="contract" htmlFor="checkbox">Sözleşmeyi kabul ediyorum</label></div>
+              <div>
+                <span>{errors.checkbox}</span>
+              </div>
+              
             </div>
 
             <div className="formButton" >
