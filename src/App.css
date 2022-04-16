@@ -64,7 +64,7 @@
 }
 
 .form {
-  margin-top: 82px;
+  margin-top: 72px;
   width: 100%;
 }
 
@@ -114,7 +114,7 @@ input[type="password"] {
 input[type="text"],
 input[type="password"] {
   border: 2px solid #8e8e8e;
-  height: 56px;
+  height: 52px;
   background-color: transparent;
   border-radius: 4px;
   padding: 0 22px;
